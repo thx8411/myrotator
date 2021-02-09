@@ -1,0 +1,61 @@
+---------------------------
+* BOM
+
+1 manual M48 field rotator (https://fr.aliexpress.com/item/4000674117175.html), 30€
+1 28BYJ48, bipolar modded, 2€
+1 DRV8834 pololu low voltage bipolar motor driver, 6€
+1 Digispark compatible board, with female usb connector, 2€
+7 M3x5 screws
+6 M3x12 scews
+Some wires
+
+PLA on ender 3, 0.28mm, 20% infill, with supports
+
+About 45€
+
+---------------------------
+* Wires :
+
+Pololu DRV8834	->	DIGISPARK
+
+ENABLE		->	0
+M1		->	+5v
+SLEEP		->	+5v
+STEP		->	1
+DIR		->	2
+VMOT		->	+5v
+GND		->	GND
+
+B2 \
+B1 |
+A1 |>  MOTOR
+A2 /
+
+pins left floating
+100uF capa between +5v and GND
+
+----------------------------
+* Features 
+
+28BYJ48 steps + gears = 2048 step/rev
+microsteps : 32
+gears ratio : 60/15 = 4
+
+Total per rev : 32 * 2048 * 4 = 262144
+accuracy = about 5 arcsec
+
+max speed : to test
+time per rev : to test
+
+-----------------------------
+* EOS M adapter size
+
+target 75mm -> 79mm
+
+filterwheel :	22
+eos-m back focus : 18
+(rotator :	30.5)
+(front ring :	16.5 -> 18)
+rotator+ring :	32
+left : 3 -> 7 : 5mm
+

@@ -1,0 +1,4 @@
+	initial	optim	+ CV	+ sync	optim	all fix	optim	backlash
+code	5622	5058	5176	5188	5186	6012	5954	5990
+ram	237	231	237	237	236	241	233	233
+
